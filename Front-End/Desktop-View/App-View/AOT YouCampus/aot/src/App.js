@@ -11,6 +11,7 @@ import google from "./images/google.svg";
 import arrow from "./images/arrow.png";
 
 function App() {
+
   return (
     <div className="App">
         <header className="App-header">
@@ -72,6 +73,7 @@ function App() {
             </section>
         </div>
     </div>
+    
   );
 }
 
