@@ -3,6 +3,8 @@
 <h1>Hacktober Fest 2022 For Everyone!👋👋</h1>
 <br>
 <img src = "https://github.com/AnanyaDas162/Data-Structures-and-Algorithms/blob/main/Images/download.jfif" alt= "Its time to contribute!!" height = "100%" width = "100%">
+<h1>Design file Figma</h1>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F9Ty8npImXgkzsGjTjJfpp6%2FUntitled%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
 <h1>🎖️🎖️Rewards ::🎖️🎖️</h1>
 <h6>You can get awesome goodies like T-Shirt and some stickers for FREE!!!🤩🤩</h6>
 <h1>👨‍💻👩‍💻Upload your code and showcase your skills👨‍💻👩‍💻</h1>
