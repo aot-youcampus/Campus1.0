@@ -1,0 +1,80 @@
+/* *{
+    /* box-sizing: border-box; */
+ 
+
+.burger-menu{
+    height: 50%;
+    width:3em;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:space-between;
+    cursor: crosshair;
+}
+
+.burger-bar{
+    display: flex;
+    margin:4px auto;
+    width: 25px;
+    height: 5px;
+    background-color: #000;
+    border-radius: 0.5em;
+}
+
+.menu{
+    /* margin-top: 10vh; */
+    width:auto;
+    height:auto;
+    display:flex;
+    background-color:grey;
+    border-radius: 0px 0px 20px 0px;
+    box-shadow:0px 0px 3px 3px rgba(40,40,40,0.33)  ;
+    position:fixed;
+    z-index: 1;
+    font-size: 20px;
+    font-style: italic;
+}
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:15px;
+    margin:10px;
+    list-style: none;
+}
+a{
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+/*----------sliding menu----------*/
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: inherit;
+}
+
+/*---------animation--------*/
+/*---clicked------*/
+.burger-bar.clicked:nth-child(1){
+    transform: rotate(45deg) translateY(12px) translateX(6px);
+    transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(2){
+    transform: scale(0.1);
+    transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(3){
+    transform: rotate(-45deg) translateY(-6px) translateX(.5px);
+    transition: ease-out 0.5s;
+}
+
+/*---unclicked------*/
+.burger-bar.unclicked{
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175,0.885,0.32,1.275) 0.5s;
+}
+
